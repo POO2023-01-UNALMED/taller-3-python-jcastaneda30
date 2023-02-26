@@ -37,10 +37,10 @@ class TV:
         return  self._canal
     
     @classmethod
-    def setNumTv (cls,numTV):
+    def setNumTV (cls,numTV):
         cls.numTV=numTV
     @classmethod
-    def getNumTv (cls):
+    def getNumTV (cls):
         return  cls.numTV
     
     def getEstado (self):
